@@ -1,0 +1,25 @@
+.header,
+.footer {
+  background-color: grey;
+  color: honeydew;
+  padding: 15px;
+}
+.column {
+  float: left;
+  padding: 15px;
+}
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
+.menu li {
+  list-style: none;
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: hotpink;
+  color: aqua;
+}
+.content {
+  width: 75%;
+}

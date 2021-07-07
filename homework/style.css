@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+.clearfix {
+  overflow: auto;
+}
+
+.blue {
+  float: left;
+  width: 33.3%;
+  height: 322px;
+  background-color: blue;
+}
+.green {
+  width: 33.3%;
+  height: 322px;
+  float: left;
+  background-color: green;
+}
+.red {
+  width: 33.3%;
+  height: 322px;
+  float: left;
+  background-color: red;
+}

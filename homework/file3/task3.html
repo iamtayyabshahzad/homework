@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task 3</title>
+    <style>
+      .box {
+        width: 48%;
+        height: 220px;
+        background-color: blueviolet;
+        border: 2px solid red;
+        float: left;
+      }
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="clearfix">
+      <div class="box">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis vel
+        molestias nesciunt nobis porro, quas modi eligendi ipsa fugiat quis
+        maxime aliquam optio, reprehenderit totam laudantium sit dolorum
+        doloribus. Consequatur.
+      </div>
+      <div class="box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, totam!
+        Quos, saepe in reprehenderit amet soluta dolore adipisci, unde
+        blanditiis id officiis totam repudiandae doloremque qui quibusdam
+        dignissimos veritatis odit sunt perspiciatis nostrum quam delectus
+        labore neque quia fugiat? Possimus nemo nesciunt facilis alias
+        exercitationem?
+      </div>
+    </div>
+  </body>
+</html>

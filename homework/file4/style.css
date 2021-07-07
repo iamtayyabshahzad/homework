@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: grey;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  color: white;
+  padding: 12px 13px;
+  text-decoration: none;
+  text-align: center;
+  display: inline block;
+  font-size: 22px;
+}
+li a:hover {
+  background-color: turquoise;
+}
+.active {
+  background-color: red;
+}
